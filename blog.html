@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <title>saswavlo</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="https://cdn.pixabay.com/photo/2015/05/27/09/57/number-786169_1280.png" style="width: 8%;" class="logo" >
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQryrVDua7vz5yxlhXDJzo5ru87QGVMpO5ZCSBHNx1Sgg&s" class="user-pic" onclick="toggleMenu()" >
+       <div class="sub-menu-wrap" id="subMenu">
+        <div class="sub-menu">
+<div class="user-info">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQryrVDua7vz5yxlhXDJzo5ru87QGVMpO5ZCSBHNx1Sgg&s"  >
+    <h3>James Adriano</h3>
+</div>
+<hr>
+
+<a href="#" class="sub-menu-link">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQsQh8tvclNkrB57vus8zpRAo72kuSDkBOXQ&usqp=CAU" >
+    <p>Edit Profile</p>
+    <span>></span>
+</a>
+<a href="#" class="sub-menu-link">
+    <img src="https://static-00.iconduck.com/assets.00/settings-icon-1964x2048-8nigtrtt.png">
+    <p>Sesttings & Privacy</p>
+    <span>></span>
+</a>
+<a href="#" class="sub-menu-link">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs19BXdEnZui4Y4ntV6pcWSdod2bNqy_pJaA&usqp=CAU" >
+    <p>Help & Support</p>
+    <span>></span>
+</a>
+<a href="#" class="sub-menu-link">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdLPC5atOuLvDygvo9Y8UCbqbHsDT9fyavsA&usqp=CAU" >
+    <p>Logout</p>
+    <span>></span>
+</a>
+        </div>
+       </div>
+
+        </nav>
+    </div>
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+
+</body>
+</html>
